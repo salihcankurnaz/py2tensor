@@ -1,6 +1,10 @@
-# Py2Tensor v2.0
+# Py2Tensor
 
-**Write Python. Get GPU. No CUDA. No training. Exact results.**
+An experimental source-to-source compiler that converts a documented subset of ordinary Python functions into batched tensor operations.
+
+Py2Tensor explores whether rule-heavy numerical functions can be expressed once in familiar Python syntax and executed efficiently through PyTorch or optional GPU-oriented backends.
+
+## Example
 
 ```python
 from tensorize_all import tensorize_all
@@ -8,91 +12,71 @@ from tensorize_all import tensorize_all
 @tensorize_all
 def insurance(age, bmi, smoker, claims):
     rates = {0: 200, 1: 400, 2: 600, 3: 1000}
-    if age > 60: factor = 3.0
-    else:
-        if age > 40: factor = 2.0
-        else: factor = 1.0
-    if smoker > 0.5: factor = factor * 2
-    else: factor = factor
-    return rates[claims] * factor
 
-# 10M insurance quotes in 7ms on GPU
-quotes = insurance(ages, bmis, smokers, claims)
+    if age > 60:
+        factor = 3.0
+    elif age > 40:
+        factor = 2.0
+    else:
+        factor = 1.0
+
+    if smoker > 0.5:
+        factor = factor * 2
+
+    return rates[claims] * factor
 ```
 
-## What It Does
+The transformed function can operate on tensor batches rather than processing records one at a time in Python.
 
-Converts **any** Python function to GPU tensor operations.
+## Supported subset
 
-`if/else` -> `torch.where` | `for` -> unroll | `dict` -> tensor lookup | `math.sin` -> `torch.sin` | `try/except` -> safe execution
+Current transformations cover selected forms of:
 
-## 6 Backends
+- Arithmetic and comparison expressions
+- Nested `if`/`else` control flow
+- Fixed-range loops and bounded loop lowering
+- Dictionary and list literals used as lookup tables
+- Common mathematical functions
+- Tuple returns and augmented assignment
+- NumPy, pandas, and tensor inputs in supported paths
 
-| Backend | Speed | Autograd | Save | Compose |
-|---------|-------|---------|------|---------|
-| `@tensorize` | 6B/s | Yes | No | No |
-| `compile=True` | 30B/s | Yes | No | No |
-| `backend="triton"` | 29B/s | No | No | No |
-| `backend="pure"` | 5B/s | Yes | Yes | Yes |
-| `backend="auto"` | Best | Auto | - | - |
-| `@tensorize_all` | 2B/s | Yes | No | No |
+Support depends on the selected backend and the exact Python construct. Py2Tensor does **not** compile arbitrary Python programs, unrestricted dynamic behavior, general file I/O, or every exception-handling pattern.
+
+## Backends
+
+The repository contains several experimental execution paths, including PyTorch-based lowering and optional compiled or GPU-oriented backends. Their supported features differ, so tests should be run for the backend used by an application.
 
 ## Benchmarks
 
-| Algorithm | CPU | GPU | Speedup |
-|-----------|-----|-----|---------|
-| clamp min/max | 9M/s | 13.5B/s | **1,499x** |
-| Fraud rule engine | 3.6M/s | 14.3B/s | **3,959x** |
-| Piecewise tariff | 6.8M/s | 21.4B/s | **3,148x** |
-| Decision tree | 6.7M/s | 14.7B/s | **2,214x** |
-| Bisection 20iter | 100M/s | 18.3B/s | **162x** |
-| Gaussian PDF | 10M/s | 44.2B/s | **581x** |
+The repository includes local benchmarks for numerical rules, decision trees, pricing functions, simulations, and trading indicators.
 
-## Supported Python Patterns
+Benchmark results are hardware-, input-, dtype-, and backend-dependent. Treat the included figures as project measurements rather than universal performance guarantees, and reproduce them on the target environment before relying on them.
 
-**Arithmetic**: `+` `-` `*` `/` `**` `%`
-**Math**: `sin cos tan exp log sqrt tanh atan2 pi e`
-**Control**: `if/else` (nested, multi-var, multi-statement + return)
-**Loops**: `for range(N)` (unrolled), `while` (auto-bounded)
-**Data**: `dict` literals, `list` literals, `min(a,b)` `max(a,b)`
-**Advanced**: `+=` `-=` `*=`, ternary, tuple return, `abs`
-**Error**: `try/except` (auto-stripped, safe execution)
-**Types**: float32, float16, numpy, pandas
+## Tested use cases
 
-## "Impossible" Things Now Working
+Examples in the test and benchmark suites include:
 
-| "Can't be GPU'd" | How |
-|---|---|
-| String comparison | char -> int tensor |
-| Dictionary lookup | embedding tensor |
-| Dynamic list | mask + filter |
-| Hash table | modular arithmetic |
-| State machine | transition matrix |
-| Try/except | condition check |
-| File I/O | streaming pipeline |
+- Insurance and tax rules
+- Fraud-detection rules
+- Decision-tree-style functions
+- Black–Scholes calculations
+- Iterative numerical simulations
+- Trading indicators
+- Monte Carlo workloads
 
-## Tested Real-World Functions
-
-- Insurance premium (4 factors, nested if)
-- Tax calculator (6 progressive brackets)
-- Projectile with air resistance (50 iterations)
-- FICO credit scoring (5 inputs, weighted rules)
-- Black-Scholes option pricing (log, sqrt, exp)
-- Damped spring simulation (30 iteration ODE)
-- Fraud detection rule engine (8 rules)
-- Trading signals (RSI, Bollinger, momentum)
-- Monte Carlo option pricing (1M paths x 12 steps)
-- Mandelbrot set (2048x2048, 32 iterations)
-
-All pass with `@tensorize_all`. Zero code changes needed.
-
-## Install
+## Installation
 
 ```bash
-git clone https://github.com/Tehlikeli107/py2tensor.git
+git clone https://github.com/salihcankurnaz/py2tensor.git
 cd py2tensor
 pip install -e .
 ```
+
+Run the repository tests and benchmarks to confirm which constructs are supported in your environment.
+
+## Project status
+
+Py2Tensor is a research and engineering prototype. The most important future work is to formalize the supported language subset, add stronger semantic-equivalence tests, report reproducible benchmark environments, and improve diagnostics for unsupported syntax.
 
 ## License
 
