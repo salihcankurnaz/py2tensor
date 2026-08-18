@@ -1,6 +1,7 @@
 # Py2Tensor v2.0
 
-**Write Python. Get GPU. No CUDA. No training. Exact results.**
+> **Research status:** experimental Python-to-tensor lowering toolkit. The implementation supports a defined subset of Python patterns; it does not compile arbitrary Python programs.
+**Write supported Python patterns and lower them to GPU-oriented tensor operations without writing custom CUDA kernels.**
 
 ```python
 from tensorize_all import tensorize_all
@@ -22,32 +23,28 @@ quotes = insurance(ages, bmis, smokers, claims)
 
 ## What It Does
 
-Converts **any** Python function to GPU tensor operations.
+Lowers a **supported subset** of Python functions to PyTorch/tensor operations. Unsupported syntax or semantics should be treated as out of scope unless covered by the current tests.
 
 `if/else` -> `torch.where` | `for` -> unroll | `dict` -> tensor lookup | `math.sin` -> `torch.sin` | `try/except` -> safe execution
 
-## 6 Backends
+## Backends and benchmarking
 
-| Backend | Speed | Autograd | Save | Compose |
-|---------|-------|---------|------|---------|
-| `@tensorize` | 6B/s | Yes | No | No |
-| `compile=True` | 30B/s | Yes | No | No |
-| `backend="triton"` | 29B/s | No | No | No |
-| `backend="pure"` | 5B/s | Yes | Yes | Yes |
-| `backend="auto"` | Best | Auto | - | - |
-| `@tensorize_all` | 2B/s | Yes | No | No |
+The repository contains several experimental execution paths, including `@tensorize`,
+compiled/fused execution, Triton-oriented experiments, pure tensor execution, automatic
+selection, and the broader `@tensorize_all` path.
 
-## Benchmarks
+Performance is workload- and hardware-dependent. Historical development numbers previously
+shown here were not backed by a committed machine-readable result artifact with a complete
+hardware/software manifest, so they are not presented as current benchmark claims.
 
-| Algorithm | CPU | GPU | Speedup |
-|-----------|-----|-----|---------|
-| clamp min/max | 9M/s | 13.5B/s | **1,499x** |
-| Fraud rule engine | 3.6M/s | 14.3B/s | **3,959x** |
-| Piecewise tariff | 6.8M/s | 21.4B/s | **3,148x** |
-| Decision tree | 6.7M/s | 14.7B/s | **2,214x** |
-| Bisection 20iter | 100M/s | 18.3B/s | **162x** |
-| Gaussian PDF | 10M/s | 44.2B/s | **581x** |
+For reproducible performance work, start with:
 
+- `final_benchmark.py` — compares Python, NumPy, tensorized execution, compiled execution,
+  and hand-written PyTorch on a fixed benchmark harness.
+- `shap_benchmark.py` — SHAP-related benchmark experiments.
+
+When reporting results, record the commit, GPU, CUDA/PyTorch versions, tensor shapes,
+warm-up policy, round count, and the raw output.
 ## Supported Python Patterns
 
 **Arithmetic**: `+` `-` `*` `/` `**` `%`
@@ -84,12 +81,12 @@ Converts **any** Python function to GPU tensor operations.
 - Monte Carlo option pricing (1M paths x 12 steps)
 - Mandelbrot set (2048x2048, 32 iterations)
 
-All pass with `@tensorize_all`. Zero code changes needed.
+These patterns were explored during development. Verify the current implementation and tests before relying on a specific pattern in another environment.
 
 ## Install
 
 ```bash
-git clone https://github.com/Tehlikeli107/py2tensor.git
+git clone https://github.com/salihcankurnaz/py2tensor.git
 cd py2tensor
 pip install -e .
 ```
