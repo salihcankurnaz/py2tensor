@@ -1,0 +1,27 @@
+{
+  "repository": "salihcankurnaz/py2tensor",
+  "branch": "master",
+  "commit_sha": "e1f66c9f17d6c4038473bdcde021a1a8fb76ca53",
+  "sources": {
+    "final_benchmark.py": {
+      "bytes": 7489,
+      "sha256": "5f9cb9e5ba380be4da4994db0b9899bad743c4a0823bc393ff65606801bf5f34"
+    },
+    "py2tensor/__init__.py": {
+      "bytes": 890,
+      "sha256": "7be52fd1c2816fccfefddd5a3400eda5641097d5c00192b344c607525d643e97"
+    },
+    "py2tensor/core.py": {
+      "bytes": 29584,
+      "sha256": "00390d30dc5da83518268863f84f0462506aca0725fe567b41b25f1d646135c3"
+    }
+  },
+  "import_provenance": {
+    "module_file_relative": "py2tensor/__init__.py",
+    "module_file_sha256": "7be52fd1c2816fccfefddd5a3400eda5641097d5c00192b344c607525d643e97",
+    "checkout_root_used": true
+  },
+  "git_status_before": "",
+  "git_status_after": "",
+  "note": "Source snapshots are not included publicly because final_benchmark.py contains an absolute local path; exact hashes preserve provenance."
+}

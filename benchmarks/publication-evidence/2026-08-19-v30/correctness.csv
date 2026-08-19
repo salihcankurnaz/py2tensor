@@ -1,0 +1,11 @@
+workload,method,allclose_atol_1e-3_rtol_1e-3,max_abs_error
+Polynomial x^2+2x+1,tensorize,True,0.0
+Polynomial x^2+2x+1,tensorize_compile,True,0.0
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,True,0.0
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,True,0.0
+Branching if/else,tensorize,True,0.0
+Branching if/else,tensorize_compile,True,0.0
+Sigmoid 1/(1+exp(-x)),tensorize,True,0.0
+Sigmoid 1/(1+exp(-x)),tensorize_compile,True,0.0
+Newton sqrt (10 iterations),tensorize,True,0.0
+Newton sqrt (10 iterations),tensorize_compile,True,0.0

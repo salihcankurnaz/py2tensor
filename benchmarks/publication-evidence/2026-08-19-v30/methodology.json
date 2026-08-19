@@ -1,0 +1,18 @@
+{
+  "artifact_source_capture": "v30",
+  "elements_per_workload": 10000000,
+  "warmups_per_method": 5,
+  "timed_rounds_per_method": 50,
+  "raw_timing_rows": 750,
+  "timing_method": "CUDA events",
+  "timing_scope": "Input tensor already resident on GPU; execution timing only.",
+  "method_order": "Round-robin rotation across tensorize, tensorize(compile=True), and hand-written PyTorch.",
+  "correctness": {
+    "reference": "hand-written PyTorch",
+    "atol": 0.001,
+    "rtol": 0.001,
+    "comparisons": 10,
+    "passed": 10
+  },
+  "compile_path_note": "The repository implementation attempts torch.compile(gpu_fn) when compile=True and falls back to gpu_fn on exception. V30 records the public API path tensorize(compile=True), but does not independently prove which backend path executed."
+}

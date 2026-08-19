@@ -1,0 +1,55 @@
+{
+  "artifact_version": "v31-public-preview",
+  "source_capture_version": "v30",
+  "repository": "salihcankurnaz/py2tensor",
+  "target_branch": "master",
+  "expected_head_sha": "e1f66c9f17d6c4038473bdcde021a1a8fb76ca53",
+  "target_directory": "benchmarks/publication-evidence/2026-08-19-v30",
+  "files": [
+    {
+      "path": "CLAIM_SAFE_RESULTS.json",
+      "bytes": 10462,
+      "sha256": "7cca746aa031692f4c4b8f75c4a078a9f4a27479259add2a5548092a5b8eef24"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3558,
+      "sha256": "0c7e3bb9ab2d1451153460eb0e08831bfbe63f0ef68c81bfbf950dc66c31ba5c"
+    },
+    {
+      "path": "correctness.csv",
+      "bytes": 546,
+      "sha256": "b8f60d722a8938ebbe9081a4a4275168b31a63868b2a177367da3c94e1fe390f"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 1001,
+      "sha256": "57dcfe5f36a82dc64028e888d2e7bdc0cb121fcb22c24be0a48eed0265478bac"
+    },
+    {
+      "path": "gpu_raw_rounds.csv",
+      "bytes": 96601,
+      "sha256": "3719b80364d01c4972230d49b555f9695d7580f6d64b3484e63db3bb0fd4fc83"
+    },
+    {
+      "path": "gpu_summary.csv",
+      "bytes": 4359,
+      "sha256": "ab6ebd9abae11bb2ca4a3ff2bef0b5281596ae10703e34e8e4bef5af667d52c3"
+    },
+    {
+      "path": "methodology.json",
+      "bytes": 794,
+      "sha256": "2ff14bb4d334139ab51d98b8d61bf4760ca4c095fa9c75b95dd15bbd190ea526"
+    },
+    {
+      "path": "source_hashes.json",
+      "bytes": 977,
+      "sha256": "e4b6e41a8fc816960544484cde473c48ad282a920fc66e29cdc90af2c7864166"
+    }
+  ],
+  "public_sanitization": {
+    "source_snapshots_included": false,
+    "reason": "final_benchmark.py contains an absolute local user path; exact source hashes are published instead.",
+    "tokens_or_secrets_found": false
+  }
+}

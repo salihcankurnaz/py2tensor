@@ -1,0 +1,751 @@
+workload,method,round,ms,elements_per_sec,scope
+Polynomial x^2+2x+1,tensorize,0,1.593951940536499,6273714875.389629,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,0,1.8053120374679565,5539208620.148302,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,0,1.539072036743164,6497421667.903886,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,1,1.6035840511322021,6236031091.067258,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,1,1.623039960861206,6161277751.099776,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,1,2.076672077178955,4815396763.837867,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,2,1.6302080154418945,6134186499.683806,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,2,1.623039960861206,6161277751.099776,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,2,1.6179200410842896,6180775159.505565,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,3,1.9148800373077393,5222259256.543133,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,3,1.6486400365829468,6065605455.467706,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,3,1.6138240098953247,6196462525.457541,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,4,1.696768045425415,5893557476.498086,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,4,2.0940799713134766,4775366813.583374,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,4,1.64028799533844,6096490389.748115,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,5,1.6066559553146362,6224107885.027365,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,5,1.8431999683380127,5425347315.41736,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,5,1.6486400365829468,6065605455.467706,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,6,1.656831979751587,6035615030.498944,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,6,1.6197439432144165,6173815337.8457985,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,6,1.610751986503601,6208280408.026455,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,7,1.7223680019378662,5805960159.936103,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,7,1.6189440488815308,6176865721.152398,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,7,1.6220159530639648,6165167476.38033,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,8,1.8800640106201172,5318967834.877929,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,8,1.6250879764556885,6153513006.606551,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,8,1.6435199975967407,6084501566.529544,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,9,1.6035840511322021,6236031091.067258,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,9,1.8872319459915161,5298765751.205101,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,9,1.5923199653625488,6280144831.144626,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,10,1.6741759777069092,5973087735.792765,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,10,1.623039960861206,6161277751.099776,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,10,1.9333120584487915,5172470712.267517,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,11,1.6117759943008423,6204336108.342281,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,11,1.6414719820022583,6092093017.513497,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,11,1.6035840511322021,6236031091.067258,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,12,1.9302400350570679,5180702823.679827,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,12,1.6128000020980835,6200396817.33076,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,12,1.627135992050171,6145767808.503901,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,13,1.6394239664077759,6099703435.41549,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,13,1.8718719482421875,5342245771.347055,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,13,1.6188479661941528,6177232333.626488,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,14,1.5912959575653076,6284186139.2647915,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,14,1.6168960332870483,6184689549.686523,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,14,1.7653759717941284,5664515751.756342,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,15,1.6291840076446533,6138042083.0776615,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,15,1.6486400365829468,6065605455.467706,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,15,1.614848017692566,6192533223.212462,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,16,2.111488103866577,4735996372.268404,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,16,1.6015360355377197,6244005615.922639,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,16,1.6261119842529297,6149637968.872243,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,17,1.780735969543457,5615655645.212686,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,17,1.5697920322418213,6370270580.185702,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,17,1.6383999586105347,6103515779.1877775,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,18,1.6383999586105347,6103515779.1877775,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,18,1.6343040466308594,6118812482.056286,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,18,1.7151999473571777,5830224059.537925,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,19,1.6547839641571045,6043084908.1219425,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,19,1.5953919887542725,6268052033.913173,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,19,1.798143982887268,5561289916.2519045,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,20,1.5441919565200806,6475878829.556616,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,20,1.6445120573043823,6080831062.066882,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,20,1.6660480499267578,6002227847.173805,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,21,1.6291840076446533,6138042083.0776615,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,21,1.7233920097351074,5802510365.321377,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,21,1.6239680051803589,6157756783.446847,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,22,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,22,1.763327956199646,5671094798.242846,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,22,1.6016000509262085,6243756045.223013,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,23,1.640447974205017,6095895851.1598835,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,23,1.6998399496078491,5882906800.90616,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,23,1.9056639671325684,5247514867.506725,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,24,1.926144003868103,5191719819.451657,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,24,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,24,1.7305599451065063,5778476514.654657,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,25,1.5738879442214966,6353692482.819272,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,25,1.622912049293518,6161763358.866658,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,25,1.628159999847412,6141902516.298878,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,26,1.6189440488815308,6176865721.152398,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,26,1.6752640008926392,5969208432.027222,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,26,1.6537599563598633,6046826784.953286,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,27,1.6053440570831299,6229194268.9031725,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,27,1.6220159530639648,6165167476.38033,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,27,1.563647985458374,6395301303.744884,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,28,1.628159999847412,6141902516.298878,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,28,1.6128000020980835,6200396817.33076,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,28,1.6455680131912231,6076929011.646965,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,29,1.8114240169525146,5520518612.104801,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,29,1.6814719438552856,5947170297.157596,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,29,1.614848017692566,6192533223.212462,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,30,1.6128000020980835,6200396817.33076,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,30,1.8892799615859985,5293021787.837772,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,30,1.6312320232391357,6130335756.98386,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,31,1.6312320232391357,6130335756.98386,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,31,1.649664044380188,6061840308.677638,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,31,1.7192959785461426,5816334200.034668,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,32,1.6558079719543457,6039347659.497633,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,32,1.6599040031433105,6024444775.760104,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,32,1.8554879426956177,5389417936.864731,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,33,1.5441919565200806,6475878829.556616,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,33,1.6414719820022583,6092093017.513497,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,33,1.5943679809570312,6272077788.464759,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,34,1.7827839851379395,5609204526.944564,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,34,1.632256031036377,6126489845.867286,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,34,1.661952018737793,6017020881.020817,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,35,1.6547839641571045,6043084908.1219425,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,35,1.8565119504928589,5386445262.226964,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,35,1.5370240211486816,6506079190.959284,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,36,1.623039960861206,6161277751.099776,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,36,1.6455680131912231,6076929011.646965,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,36,1.7960959672927856,5567631230.23586,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,37,1.5370240211486816,6506079190.959284,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,37,1.6209919452667236,6169062116.0702715,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,37,1.6435199975967407,6084501566.529544,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,38,1.8298879861831665,5464815374.223146,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,38,1.6455680131912231,6076929011.646965,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,38,1.656831979751587,6035615030.498944,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,39,1.6168960332870483,6184689549.686523,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,39,1.9118080139160156,5230650738.573216,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,39,1.6383999586105347,6103515779.1877775,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,40,1.614848017692566,6192533223.212462,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,40,1.6495039463043213,6062428660.692076,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,40,1.8503680229187012,5404330314.910206,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,41,1.617792010307312,6181264301.151063,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,41,1.6176639795303345,6181753520.223252,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,41,1.643455982208252,6084738568.150371,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,42,1.6834559440612793,5940161389.596775,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,42,1.6629760265350342,6013315790.74891,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,42,1.5911040306091309,6284944169.346141,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,43,1.8360320329666138,5446528067.29208,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,43,1.5544320344924927,6433217907.314233,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,43,1.6732159852981567,5976514740.395612,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,44,1.602560043334961,6240015805.704098,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,44,1.7724159955978394,5642016335.237926,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,44,1.5646719932556152,6391115865.244693,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,45,1.6435199975967407,6084501566.529544,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,45,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,45,1.785856008529663,5599555592.521277,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,46,1.652735948562622,6050573298.594346,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,46,1.6168320178985596,6184934420.70579,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,46,1.6506880521774292,6058079833.320996,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,47,1.9455360174179077,5139971663.578802,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,47,1.6741440296173096,5973201721.649892,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,47,1.6096960306167603,6212353021.811495,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,48,1.6413120031356812,6092686814.508927,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,48,1.7817599773406982,5612428232.294868,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,48,1.7663999795913696,5661231949.466706,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize_compile,49,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,hand_pytorch,49,1.6055999994277954,6228201297.685479,CUDA execution; 10M input already resident on GPU
+Polynomial x^2+2x+1,tensorize,49,2.0060160160064697,4985005064.868709,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,0,1.595263957977295,6268555087.6981125,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,0,1.6240639686584473,6157392930.932682,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,0,1.6166720390319824,6185546455.042123,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,1,2.0490241050720215,4880372063.582194,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,1,1.6373759508132935,6107332891.406488,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,1,1.640447974205017,6095895851.1598835,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,2,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,2,1.8391040563583374,5437430234.26379,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,2,1.5431679487228394,6480176061.3783,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,3,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,3,1.6609280109405518,6020730539.872822,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,3,2.0981760025024414,4766044406.2239065,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,4,1.6965759992599487,5894224605.536108,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,4,1.6947200298309326,5900679654.442753,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,4,1.7080320119857788,5854691205.918253,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,5,1.8769919872283936,5327673249.56257,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,5,1.6486400365829468,6065605455.467706,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,5,1.634112000465393,6119531584.831403,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,6,1.6814080476760864,5947396299.084707,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,6,1.9292160272598267,5183452686.842727,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,6,1.6414719820022583,6092093017.513497,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,7,1.6464320421218872,6073739907.972278,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,7,1.6117759943008423,6204336108.342281,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,7,1.691648006439209,5911395255.948809,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,8,1.6158080101013184,6188854082.591753,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,8,1.6394239664077759,6099703435.41549,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,8,1.6814080476760864,5947396299.084707,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,9,1.6834559440612793,5940161389.596775,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,9,1.6343040466308594,6118812482.056286,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,9,1.6097279787063599,6212229725.941888,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,10,1.8831360340118408,5310290823.067072,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,10,1.6138240098953247,6196462525.457541,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,10,1.6424959897994995,6088294925.591085,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,11,1.6250879764556885,6153513006.606551,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,11,1.8647040128707886,5362781401.754259,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,11,1.5380480289459229,6501747547.41134,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,12,1.6476160287857056,6069375282.401209,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,12,1.6179200410842896,6180775159.505565,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,12,2.0357120037078857,4912286208.356488,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,13,1.7203199863433838,5812872069.954522,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,13,1.6424640417099,6088413350.948873,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,13,1.6732159852981567,5976514740.395612,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,14,1.9046399593353271,5250336133.601731,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,14,1.7151999473571777,5830224059.537925,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,14,1.644544005393982,6080712931.4878435,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,15,1.6599040031433105,6024444775.760104,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,15,1.7233920097351074,5802510365.321377,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,15,1.6936960220336914,5904247202.513106,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,16,1.6895999908447266,5918560638.130943,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,16,1.896448016166687,5273015613.796322,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,16,1.7704960107803345,5648134725.5860615,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,17,1.6373759508132935,6107332891.406488,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,17,1.674239993095398,5972859351.849327,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,17,1.9394559860229492,5156085042.438118,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,18,1.7029119729995728,5872294140.011023,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,18,1.661952018737793,6017020881.020817,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,18,1.6762880086898804,5965561972.739756,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,19,2.0357439517974854,4912209117.050489,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,19,1.6650240421295166,6005919282.228679,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,19,1.6517119407653809,6054324457.669135,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,20,1.8636800050735474,5365728007.370752,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,20,1.6424959897994995,6088294925.591085,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,20,1.6773120164871216,5961919965.817391,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,21,1.6650240421295166,6005919282.228679,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,21,2.1043200492858887,4752128842.470303,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,21,1.6640000343322754,6009615260.622737,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,22,1.6599040031433105,6024444775.760104,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,22,1.652735948562622,6050573298.594346,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,22,2.15449595451355,4641456847.04144,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,23,1.6784000396728516,5958055149.920735,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,23,1.6680959463119507,5994859002.031229,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,23,1.6855039596557617,5932943641.403457,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,24,1.772544026374817,5641608812.646457,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,24,1.636191964149475,6111752299.919281,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,24,1.6046080589294434,6232051462.256623,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,25,1.6332800388336182,6122648757.246397,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,25,1.7489919662475586,5717579150.151776,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,25,1.6414719820022583,6092093017.513497,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,26,1.5953279733657837,6268303550.712676,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,26,1.8606079816818237,5374587284.614834,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,26,1.632256031036377,6126489845.867286,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,27,1.628159999847412,6141902516.298878,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,27,1.6261119842529297,6149637968.872243,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,27,1.8360320329666138,5446528067.29208,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,28,1.628159999847412,6141902516.298878,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,28,1.6158720254898071,6188608901.109465,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,28,1.6537599563598633,6046826784.953286,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,29,1.8431999683380127,5425347315.41736,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,29,1.6097279787063599,6212229725.941888,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,29,1.6475520133972168,6069611107.075288,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,30,1.6353280544281006,6114981011.254745,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,30,2.0305919647216797,4924672299.375831,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,30,1.6312320232391357,6130335756.98386,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,31,1.627135992050171,6145767808.503901,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,31,1.6312320232391357,6130335756.98386,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,31,1.7356799840927124,5761430731.26886,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,32,1.628159999847412,6141902516.298878,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,32,1.6394239664077759,6099703435.41549,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,32,1.6947200298309326,5900679654.442753,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,33,1.6189440488815308,6176865721.152398,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,33,1.6650240421295166,6005919282.228679,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,33,1.6363519430160522,6111154781.023719,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,34,1.9302400350570679,5180702823.679827,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,34,1.5523840188980103,6441705066.700373,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,34,1.6844799518585205,5936550321.638913,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,35,1.6465920209884644,6073149798.209825,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,35,1.7592320442199707,5684298460.146523,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,35,1.7551360130310059,5697564135.061334,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,36,1.632256031036377,6126489845.867286,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,36,1.6332800388336182,6122648757.246397,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,36,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,37,1.9393919706344604,5156255234.329221,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,37,1.6138240098953247,6196462525.457541,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,37,1.649664044380188,6061840308.677638,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,38,1.7500159740447998,5714233554.615544,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,38,1.6465920209884644,6073149798.209825,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,38,1.6301759481430054,6134307165.6721325,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,39,1.6844799518585205,5936550321.638913,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,39,1.9671039581298828,5083615412.734443,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,39,1.640447974205017,6095895851.1598835,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,40,1.6435199975967407,6084501566.529544,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,40,1.8595839738845825,5377546881.687991,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,40,1.7356799840927124,5761430731.26886,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,41,1.6332800388336182,6122648757.246397,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,41,1.6773120164871216,5961919965.817391,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,41,1.8831360340118408,5310290823.067072,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,42,1.691648006439209,5911395255.948809,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,42,1.621824026107788,6165897063.443423,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,42,1.610751986503601,6208280408.026455,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,43,1.9231359958648682,5199840272.087894,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,43,1.6220159530639648,6165167476.38033,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,43,1.6516799926757812,6054441565.160355,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,44,1.656831979751587,6035615030.498944,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,44,1.6824320554733276,5943776432.140462,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,44,1.6640000343322754,6009615260.622737,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,45,1.614848017692566,6192533223.212462,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,45,1.6312320232391357,6130335756.98386,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,45,1.8247679471969604,5480148867.893626,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,46,1.6343040466308594,6118812482.056286,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,46,1.6209919452667236,6169062116.0702715,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,46,1.619968056678772,6172961225.236633,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,47,2.0736000537872314,4822530739.105625,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,47,1.656831979751587,6035615030.498944,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,47,1.6208000183105469,6169792625.263896,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,48,1.8216960430145264,5489389977.184168,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,48,1.7469439506530762,5724282107.769747,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,48,1.6834559440612793,5940161389.596775,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize_compile,49,1.6783360242843628,5958282403.110526,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),hand_pytorch,49,1.8472959995269775,5413317628.880602,CUDA execution; 10M input already resident on GPU
+Gaussian PDF exp(-x^2/2)/sqrt(2pi),tensorize,49,1.5974719524383545,6259890813.567128,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,0,2.108544111251831,4742608867.719184,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,0,2.0039680004119873,4990099641.283764,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,0,1.9159040451049805,5219468075.945347,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,1,2.3592960834503174,4238552367.439889,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,1,1.9548159837722778,5115571022.03689,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,1,1.9393600225448608,5156340176.012204,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,2,2.3265280723571777,4298250306.461276,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,2,1.8760319948196411,5330399496.177774,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,2,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,3,2.2507519721984863,4442959563.524103,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,3,1.947648048400879,5134397874.508448,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,3,1.840127944946289,5434404725.749593,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,4,1.8647040128707886,5362781401.754259,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,4,2.070528030395508,4829685883.60034,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,4,1.896448016166687,5273015613.796322,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,5,1.8565119504928589,5386445262.226964,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,5,2.1073920726776123,4745201488.441679,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,5,1.8124799728393555,5517302342.565704,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,6,1.8974720239639282,5270169928.044275,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,6,1.884160041809082,5307404773.534243,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,6,2.1032960414886475,4754442457.335826,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,7,1.903615951538086,5253160434.971239,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,7,1.8626559972763062,5368677852.820185,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,7,2.3500800132751465,4255174267.902343,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,8,1.854464054107666,5392393547.801506,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,8,1.8923519849777222,5284429154.50411,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,8,2.1196799278259277,4717693397.35014,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,9,1.7694720029830933,5651403346.953971,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,9,1.8872319459915161,5298765751.205101,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,9,1.8524160385131836,5398355332.7611885,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,10,2.2917120456695557,4363549957.725322,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,10,1.8606079816818237,5374587284.614834,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,10,1.8657280206680298,5359838030.636142,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,11,2.2374401092529297,4469393374.439395,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,11,1.8944000005722046,5278716214.621777,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,11,1.8851840496063232,5304521859.331595,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,12,1.8759679794311523,5330581390.32431,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,12,2.0039680004119873,4990099641.283764,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,12,1.866752028465271,5356897888.693543,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,13,1.861631989479065,5371630943.448855,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,13,2.085887908935547,4794121466.049016,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,13,1.8585599660873413,5380509740.050034,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,14,1.8923519849777222,5284429154.50411,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,14,1.9066879749298096,5244696631.795838,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,14,1.9896320104599,5026055043.057193,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,15,1.8862080574035645,5301642075.352691,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,15,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,15,2.3050239086151123,4338349794.388088,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,16,1.879040002822876,5321866477.0186,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,16,1.8870079517364502,5299394732.702564,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,16,2.298880100250244,4349944131.019035,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,17,1.8923519849777222,5284429154.50411,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,17,1.8688000440597534,5351027271.101808,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,17,1.8791040182113647,5321685177.129553,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,18,1.9937280416488647,5015729222.391706,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,18,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,18,1.8391040563583374,5437430234.26379,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,19,2.358272075653076,4240392829.665636,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,19,1.8882559537887573,5295892212.035741,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,19,1.8749439716339111,5333492707.670378,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,20,2.3306241035461426,4290696206.558827,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,20,1.8923519849777222,5284429154.50411,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,20,1.9025919437408447,5255987776.516159,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,21,2.135040044784546,4683752899.355635,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,21,1.854464054107666,5392393547.801506,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,21,1.8697279691696167,5348371616.027758,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,22,1.9302400350570679,5180702823.679827,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,22,2.0837440490722656,4799053897.455519,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,22,1.9189759492874146,5211112731.096689,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,23,1.8718719482421875,5342245771.347055,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,23,2.3603200912475586,4236713502.1565876,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,23,1.8718719482421875,5342245771.347055,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,24,1.8698240518569946,5348096784.865192,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,24,2.145279884338379,4661396432.700938,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,24,1.7797119617462158,5618886772.097778,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,25,1.9066879749298096,5244696631.795838,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,25,1.8698240518569946,5348096784.865192,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,25,2.3961598873138428,4173344213.357256,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,26,1.8688000440597534,5351027271.101808,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,26,1.8944000005722046,5278716214.621777,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,26,2.3214080333709717,4307730418.8866625,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,27,1.9374079704284668,5161535491.045003,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,27,1.9240959882736206,5197245907.140224,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,27,2.0981760025024414,4766044406.2239065,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,28,1.8769919872283936,5327673249.56257,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,28,1.8647040128707886,5362781401.754259,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,28,1.8769919872283936,5327673249.56257,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,29,1.9742720127105713,5065158162.410725,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,29,1.9228800535202026,5200532389.783269,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,29,1.884160041809082,5307404773.534243,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,30,2.352224111557007,4251295593.335579,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,30,1.8872319459915161,5298765751.205101,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,30,1.8809599876403809,5316434196.213158,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,31,2.3019518852233887,4344139451.476663,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,31,1.8892799615859985,5293021787.837772,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,31,1.9055360555648804,5247867113.716504,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,32,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,32,2.308095932006836,4332575549.104336,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,32,1.8872319459915161,5298765751.205101,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,33,1.9281920194625854,5186205470.7534485,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,33,2.3603200912475586,4236713502.1565876,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,33,1.8483200073242188,5410318538.117665,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,34,1.8800640106201172,5318967834.877929,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,34,2.382848024368286,4196658745.2219443,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,34,2.358272075653076,4240392829.665636,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,35,1.866752028465271,5356897888.693543,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,35,2.269184112548828,4406870268.789096,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,35,1.8728959560394287,5339324892.957096,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,36,1.8974720239639282,5270169928.044275,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,36,2.1493759155273438,4652513284.325383,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,36,1.7756160497665405,5631848169.718227,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,37,1.8666880130767822,5357081595.824589,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,37,1.8728959560394287,5339324892.957096,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,37,2.1370880603790283,4679264362.286703,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,38,1.8790080547332764,5321956962.776028,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,38,1.8718719482421875,5342245771.347055,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,38,2.2958080768585205,4355764796.194788,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,39,1.8565119504928589,5386445262.226964,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,39,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,39,1.8534400463104248,5395372793.366925,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,40,1.9875839948654175,5031233913.048851,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,40,1.8575359582901,5383475865.094534,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,40,1.884160041809082,5307404773.534243,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,41,2.274303913116455,4396949740.238148,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,41,1.9302400350570679,5180702823.679827,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,41,1.8984960317611694,5267327312.095219,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,42,2.1340160369873047,4686000398.627506,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,42,1.8647040128707886,5362781401.754259,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,42,1.8800640106201172,5318967834.877929,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,43,1.8872319459915161,5298765751.205101,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,43,2.303999900817871,4340277964.617191,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,43,1.887168049812317,5298945158.06079,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,44,1.921023964881897,5205557131.409754,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,44,2.164736032485962,4619500876.749437,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,44,1.9249600172042847,5194913094.622868,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,45,1.916640043258667,5217463777.39141,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,45,2.075648069381714,4817772409.259515,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,45,1.8780479431152344,5324677698.809105,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,46,1.8708479404449463,5345169847.220018,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,46,1.872704029083252,5339872101.8907175,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,46,2.032639980316162,4919710375.097795,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,47,1.87391996383667,5336407206.808325,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,47,1.884160041809082,5307404773.534243,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,47,2.1176319122314453,4722255998.429181,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,48,1.9351999759674072,5167424619.773983,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,48,1.9292160272598267,5183452686.842727,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,48,1.8749439716339111,5333492707.670378,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize_compile,49,2.347007989883423,4260743910.1631284,CUDA execution; 10M input already resident on GPU
+Branching if/else,hand_pytorch,49,1.8565119504928589,5386445262.226964,CUDA execution; 10M input already resident on GPU
+Branching if/else,tensorize,49,1.9292160272598267,5183452686.842727,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,0,1.7799040079116821,5618280511.505087,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,0,1.8534400463104248,5395372793.366925,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,0,1.7971199750900269,5564458766.58794,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,1,2.2568960189819336,4430864300.301665,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,1,1.8309119939804077,5461758966.502793,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,1,1.8666880130767822,5357081595.824589,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,2,2.066431999206543,4839259169.3507185,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,2,1.9292160272598267,5183452686.842727,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,2,1.8769919872283936,5327673249.56257,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,3,1.9077119827270508,5241881421.589187,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,3,2.036736011505127,4909816462.964242,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,3,1.815551996231079,5507966734.502284,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,4,1.819648027420044,5495568290.8514595,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,4,2.239487886428833,4465306582.187571,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,4,1.827839970588684,5470938463.381641,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,5,1.815551996231079,5507966734.502284,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,5,2.0480000972747803,4882812268.078862,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,5,1.7674239873886108,5657951952.307219,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,6,1.798143982887268,5561289916.2519045,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,6,1.8554879426956177,5389417936.864731,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,6,2.3664638996124268,4225714155.8921623,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,7,1.8451839685440063,5419513810.262929,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,7,1.8009920120239258,5552495476.513614,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,7,2.2855679988861084,4375280020.053478,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,8,1.8216960430145264,5489389977.184168,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,8,1.8780159950256348,5324768280.188955,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,8,2.075648069381714,4817772409.259515,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,9,1.977344036102295,5057288877.110035,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,9,1.819648027420044,5495568290.8514595,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,9,1.8083839416503906,5529799159.172842,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,10,2.298880100250244,4349944131.019035,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,10,1.815551996231079,5507966734.502284,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,10,1.8288320302963257,5467970723.576894,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,11,2.224128007888794,4496144090.866553,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,11,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,11,1.8094079494476318,5526669650.728989,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,12,1.8585599660873413,5380509740.050034,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,12,1.931264042854309,5177955876.618773,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,12,1.8114559650421143,5520421248.422405,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,13,1.879040002822876,5321866477.0186,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,13,2.2568960189819336,4430864300.301665,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,13,1.8780159950256348,5324768280.188955,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,14,1.7940479516983032,5573987022.216256,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,14,2.164736032485962,4619500876.749437,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,14,1.8452479839324951,5419325796.356394,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,15,1.8257280588150024,5477266973.971221,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,15,1.8094079494476318,5526669650.728989,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,15,2.036736011505127,4909816462.964242,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,16,1.8247679471969604,5480148867.893626,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,16,1.8134080171585083,5514478763.400057,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,16,2.0776960849761963,4813023460.124857,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,17,1.7233920097351074,5802510365.321377,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,17,1.8677760362625122,5353960970.61528,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,17,1.8595839738845825,5377546881.687991,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,18,1.9169280529022217,5216679877.40074,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,18,1.8769919872283936,5327673249.56257,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,18,1.8083839416503906,5529799159.172842,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,19,2.0725760459899902,4824913430.485676,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,19,1.926144003868103,5191719819.451657,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,19,1.861631989479065,5371630943.448855,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,20,1.7877119779586792,5593742237.72815,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,20,1.9578880071640015,5107544437.378207,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,20,1.8585599660873413,5380509740.050034,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,21,1.8780159950256348,5324768280.188955,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,21,2.258944034576416,4426847167.054823,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,21,1.8329600095748901,5455656396.082124,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,22,1.879040002822876,5321866477.0186,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,22,2.0725760459899902,4824913430.485676,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,22,1.7623039484024048,5674390055.736628,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,23,1.798143982887268,5561289916.2519045,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,23,1.814527988433838,5511075091.562097,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,23,2.2568960189819336,4430864300.301665,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,24,1.8298879861831665,5464815374.223146,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,24,1.7960959672927856,5567631230.23586,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,24,2.0244479179382324,4939618308.474117,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,25,1.7121280431747437,5840684661.327855,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,25,1.798143982887268,5561289916.2519045,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,25,1.8053120374679565,5539208620.148302,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,26,2.269184112548828,4406870268.789096,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,26,1.8688000440597534,5351027271.101808,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,26,1.8380800485610962,5440459466.293809,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,27,2.086911916732788,4791769082.259938,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,27,1.9865599870681763,5033827352.356116,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,27,1.8186240196228027,5498662665.895109,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,28,2.0490241050720215,4880372063.582194,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,28,1.7920000553131104,5580356970.609988,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,28,1.8431999683380127,5425347315.41736,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,29,1.8083839416503906,5529799159.172842,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,29,2.312191963195801,4324900423.13722,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,29,1.8666239976882935,5357265315.556012,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,30,1.8072960376739502,5533127828.283368,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,30,2.0500481128692627,4877934296.870685,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,30,1.9527679681777954,5120936108.620931,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,31,1.8451199531555176,5419701837.215535,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,31,1.8032640218734741,5545499648.803867,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,31,2.2712318897247314,4402896967.606412,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,32,1.8268159627914429,5474005156.337493,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,32,1.866752028465271,5356897888.693543,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,32,2.318336009979248,4313438585.673141,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,33,1.8257919549942017,5477075289.244419,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,33,1.8944000005722046,5278716214.621777,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,33,2.0787200927734375,4810652494.659806,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,34,1.9066879749298096,5244696631.795838,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,34,1.8380800485610962,5440459466.293809,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,34,1.8554879426956177,5389417936.864731,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,35,2.2179839611053467,4508598878.693621,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,35,1.8349119424819946,5449852806.818345,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,35,1.8227200508117676,5486306026.834123,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,36,2.0602879524230957,4853690469.936031,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,36,1.8421759605407715,5428363095.708021,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,36,1.7817599773406982,5612428232.294868,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,37,1.8309119939804077,5461758966.502793,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,37,2.2374401092529297,4469393374.439395,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,37,1.8329600095748901,5455656396.082124,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,38,1.7920000553131104,5580356970.609988,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,38,2.076672077178955,4815396763.837867,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,38,1.814527988433838,5511075091.562097,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,39,1.8042240142822266,5542548996.599125,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,39,1.793023943901062,5577170362.958518,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,39,2.032639980316162,4919710375.097795,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,40,1.884160041809082,5307404773.534243,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,40,1.7847360372543335,5603069468.684098,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,40,2.242624044418335,4459062153.056368,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,41,1.7766400575637817,5628602123.10675,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,41,1.815551996231079,5507966734.502284,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,41,1.8135039806365967,5514186958.933329,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,42,2.228224039077759,4487879057.322668,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,42,1.8298879861831665,5464815374.223146,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,42,1.8094079494476318,5526669650.728989,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,43,2.037760019302368,4907349199.747045,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,43,1.8042880296707153,5542352349.267102,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,43,1.8452479839324951,5419325796.356394,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,44,1.8216639757156372,5489486608.567049,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,44,2.091007947921753,4782382587.277573,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,44,1.8186240196228027,5498662665.895109,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,45,1.8114559650421143,5520421248.422405,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,45,2.086911916732788,4791769082.259938,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,45,1.8165760040283203,5504861881.81758,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,46,1.84934401512146,5407322768.63222,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,46,1.9937280416488647,5015729222.391706,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,46,1.7377279996871948,5754640543.169058,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,47,1.8042880296707153,5542352349.267102,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,47,1.8094079494476318,5526669650.728989,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,47,2.0643839836120605,4844060058.295435,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,48,1.8513920307159424,5401341171.44976,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,48,1.814527988433838,5511075091.562097,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,48,1.8012160062789917,5551804983.489078,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize_compile,49,2.081792116165161,4803553593.247751,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),hand_pytorch,49,1.7969599962234497,5564954156.473338,CUDA execution; 10M input already resident on GPU
+Sigmoid 1/(1+exp(-x)),tensorize,49,1.861631989479065,5371630943.448855,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,0,14.633855819702148,683346899.3548918,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,0,15.410176277160645,648921843.6015528,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,0,15.1080961227417,661896768.3788656,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,1,15.180800437927246,658726793.8136059,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,1,15.166463851928711,659349476.4257988,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,1,15.168512344360352,659260431.9380072,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,2,15.597567558288574,641125609.0175408,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,2,14.77017593383789,677040005.8059156,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,2,14.951295852661133,668838346.759096,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,3,15.042559623718262,664780479.5290664,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,3,14.955519676208496,668649449.6014189,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,3,15.120384216308594,661358855.498802,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,4,14.945280075073242,669107567.7249222,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,4,14.751744270324707,677885937.8762729,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,4,15.153152465820312,659928686.2952218,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,5,15.331328392028809,652259200.5268952,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,5,14.941184043884277,669290999.3363744,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,5,15.089664459228516,662705259.4190863,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,6,15.234047889709473,656424351.0587198,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,6,15.20025634765625,657883641.649367,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,6,15.197183609008789,658016660.0127188,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,7,15.07532787322998,663335489.8872551,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,7,15.01580810546875,665964823.8550681,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,7,15.2739839553833,654708033.5563341,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,8,15.195103645324707,658106731.8403479,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,8,15.344639778137207,651693369.4493003,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,8,14.96780776977539,668100509.6947515,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,9,15.118335723876953,661448467.7838333,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,9,14.807040214538574,675354416.2175847,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,9,15.00979232788086,666231736.0264131,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,10,15.052800178527832,664328223.4135126,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,10,15.17363166809082,659038008.7470663,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,10,15.028223991394043,665414622.8939979,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,11,14.928895950317383,669841898.1068324,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,11,14.935040473937988,669566314.028425,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,11,15.493120193481445,645447777.7954235,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,12,14.730239868164062,678875570.9004196,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,12,15.443872451782227,647505995.0942549,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,12,14.946271896362305,669063166.3427619,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,13,14.98624038696289,667278766.5076684,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,13,15.187968254089355,658415914.0119023,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,13,14.822400093078613,674654572.6200944,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,14,14.86950397491455,672517389.7441636,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,14,15.151040077209473,660020694.8856416,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,14,14.965760231018066,668191915.7888137,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,15,15.253503799438477,655587078.9744798,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,15,14.837759971618652,673956177.9626968,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,15,14.870528221130371,672471068.3639628,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,16,14.838784217834473,673909658.1767917,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,16,14.9104642868042,670669927.3509563,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,16,14.87564754486084,672239643.3394086,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,17,14.866432189941406,672656349.0308036,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,17,15.127552032470703,661045486.972075,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,17,14.915583610534668,670439740.1478237,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,18,14.900223731994629,671130862.1848018,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,18,14.725055694580078,679114579.0831031,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,18,14.735360145568848,678639673.6293653,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,19,15.062015533447266,663921769.1545751,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,19,15.1080961227417,661896768.3788656,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,19,14.920703887939453,670209668.0628515,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,20,14.919679641723633,670255678.4151382,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,20,14.921728134155273,670163664.026982,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,20,15.370240211486816,650607919.0959284,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,21,15.145983695983887,660241038.2002195,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,21,14.953472137451172,668741005.9737809,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,21,14.9749755859375,667780721.4183819,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,22,14.989312171936035,667142019.9468958,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,22,15.115263938903809,661582890.0123872,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,22,14.768159866333008,677132431.5629202,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,23,14.739359855651855,678455516.2458746,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,23,14.702591896057129,680152184.777825,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,23,14.761983871459961,677415724.5445492,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,24,14.858240127563477,673027216.8269128,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,24,14.690303802490234,680721116.0809925,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,24,14.666751861572266,681814221.3342121,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,25,14.753791809082031,677791860.5198342,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,25,15.079423904418945,663155307.7481662,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,25,14.921728134155273,670163664.026982,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,26,15.326208114624023,652477111.4427292,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,26,14.755840301513672,677697765.4721695,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,26,14.698495864868164,680341722.8494552,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,27,14.714591979980469,679597505.2251006,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,27,14.842880249023438,673723686.523573,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,27,14.714752197265625,679590105.625989,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,28,14.702591896057129,680152184.777825,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,28,14.604288101196289,684730397.7234511,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,28,14.87446403503418,672293131.1304234,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,29,14.699520111083984,680294317.394731,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,29,14.862336158752441,672841731.8236334,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,29,14.797823905944824,675775037.1649332,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,30,14.692352294921875,680626206.0198696,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,30,15.49824047088623,645234536.0613812,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,30,14.70361614227295,680104805.7321059,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,31,14.76095962524414,677462729.6519419,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,31,14.853119850158691,673259227.7502669,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,31,14.746623992919922,678121311.3456444,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,32,15.041536331176758,664825705.2886872,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,32,14.72111988067627,679296146.0171611,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,32,14.621696472167969,683915168.0541823,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,33,14.766079902648926,677227813.0640532,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,33,14.899200439453125,671176956.1485978,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,33,14.838784217834473,673909658.1767917,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,34,14.697471618652344,680389134.9114189,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,34,15.070207595825195,663560865.7952553,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,34,14.609408378601074,684490414.7280433,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,35,14.692352294921875,680626206.0198696,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,35,14.676863670349121,681344476.8995478,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,35,14.90009593963623,671136618.2145629,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,36,14.676959991455078,681340005.4113384,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,36,14.806015968322754,675401135.6866592,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,36,15.026176452636719,665505295.4768976,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,37,14.87769603729248,672147083.4552586,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,37,14.737407684326172,678545386.9635026,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,37,15.112192153930664,661717366.8877028,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,38,14.671744346618652,681582214.3400874,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,38,14.646271705627441,682767614.9253578,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,38,14.938112258911133,669428628.375358,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,39,14.764032363891602,677321733.8954772,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,39,14.739456176757812,678451082.5961603,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,39,14.820351600646973,674747824.4418613,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,40,14.88691234588623,671730965.2705349,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,40,14.672896385192871,681528700.0930152,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,40,15.247360229492188,655851232.5731974,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,41,14.835712432861328,674049193.4751883,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,41,15.07430362701416,663380561.2140737,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,41,14.948351860046387,668970070.6556,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,42,14.724096298217773,679158829.0013027,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,42,14.800895690917969,675634786.4903971,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,42,15.09068775177002,662660321.682627,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,43,14.862336158752441,672841731.8236334,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,43,14.728992462158203,678933065.2243897,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,43,14.781439781188965,676524083.4472781,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,44,14.721920013427734,679259226.437794,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,44,14.672896385192871,681528700.0930152,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,44,14.714879989624023,679584203.680312,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,45,14.717951774597168,679442367.6030629,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,45,14.831616401672363,674235344.8995912,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,45,15.007743835449219,666322673.7905388,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,46,14.727007865905762,679024557.5376397,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,46,14.693375587463379,680578805.0862975,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,46,14.908415794372559,670762080.8224758,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,47,14.79475212097168,675915346.0790275,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,47,14.930944442749023,669749997.2854257,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,47,14.738431930541992,678498231.5029941,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,48,14.939135551452637,669382774.228033,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,48,14.728192329406738,678969949.3558153,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,48,14.788607597351074,676196182.3769801,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize_compile,49,15.232000350952148,656512589.9156708,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),hand_pytorch,49,14.83356761932373,674146655.5202116,CUDA execution; 10M input already resident on GPU
+Newton sqrt (10 iterations),tensorize,49,14.89408016204834,671407692.935683,CUDA execution; 10M input already resident on GPU
