@@ -1,6 +1,7 @@
 # Py2Tensor v2.0
 
 > **Research status:** experimental Python-to-tensor lowering toolkit. The implementation supports a defined subset of Python patterns; it does not compile arbitrary Python programs.
+
 **Write supported Python patterns and lower them to GPU-oriented tensor operations without writing custom CUDA kernels.**
 
 ```python
@@ -17,7 +18,7 @@ def insurance(age, bmi, smoker, claims):
     else: factor = factor
     return rates[claims] * factor
 
-# 10M insurance quotes in 7ms on GPU
+# GPU-oriented vectorized execution for supported inputs
 quotes = insurance(ages, bmis, smokers, claims)
 ```
 
@@ -33,9 +34,11 @@ The repository contains several experimental execution paths, including `@tensor
 compiled/fused execution, Triton-oriented experiments, pure tensor execution, automatic
 selection, and the broader `@tensorize_all` path.
 
-Performance is workload- and hardware-dependent. Historical development numbers previously
-shown here were not backed by a committed machine-readable result artifact with a complete
-hardware/software manifest, so they are not presented as current benchmark claims.
+Performance is workload- and hardware-dependent. Reproducible benchmark evidence is
+committed under [`benchmarks/publication-evidence/2026-08-19-v30/`](benchmarks/publication-evidence/2026-08-19-v30/).
+That artifact records the exact source revision, environment, methodology, correctness
+checks, raw round timings, and machine-readable summaries for five benchmark workloads.
+It should be treated as configuration-specific evidence rather than a universal speedup claim.
 
 For reproducible performance work, start with:
 
@@ -45,20 +48,21 @@ For reproducible performance work, start with:
 
 When reporting results, record the commit, GPU, CUDA/PyTorch versions, tensor shapes,
 warm-up policy, round count, and the raw output.
+
 ## Supported Python Patterns
 
-**Arithmetic**: `+` `-` `*` `/` `**` `%`
-**Math**: `sin cos tan exp log sqrt tanh atan2 pi e`
-**Control**: `if/else` (nested, multi-var, multi-statement + return)
-**Loops**: `for range(N)` (unrolled), `while` (auto-bounded)
-**Data**: `dict` literals, `list` literals, `min(a,b)` `max(a,b)`
-**Advanced**: `+=` `-=` `*=`, ternary, tuple return, `abs`
-**Error**: `try/except` (auto-stripped, safe execution)
+**Arithmetic**: `+` `-` `*` `/` `**` `%`  
+**Math**: `sin cos tan exp log sqrt tanh atan2 pi e`  
+**Control**: `if/else` (nested, multi-var, multi-statement + return)  
+**Loops**: `for range(N)` (unrolled), `while` (auto-bounded)  
+**Data**: `dict` literals, `list` literals, `min(a,b)` `max(a,b)`  
+**Advanced**: `+=` `-=` `*=`, ternary, tuple return, `abs`  
+**Error**: `try/except` (auto-stripped, safe execution)  
 **Types**: float32, float16, numpy, pandas
 
-## "Impossible" Things Now Working
+## Explored Lowering Patterns
 
-| "Can't be GPU'd" | How |
+| Pattern | Experimental lowering approach |
 |---|---|
 | String comparison | char -> int tensor |
 | Dictionary lookup | embedding tensor |
@@ -93,4 +97,4 @@ pip install -e .
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
